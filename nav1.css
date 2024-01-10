@@ -1,0 +1,46 @@
+body{
+    font-family: arial, sans-serif;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#maindiv{
+    width: 100%;
+    height: 30px;
+    background: url(img/RiverRock.jpg) repeat;
+    background-size: cover;
+}
+#navdiv u1{
+    width: 100%;
+    height: 100px;
+    background: black;
+    line-height: 100px;
+    color: white; 
+    float: right;
+}
+#navdiv u1 a{
+    text-decoration: none;
+    color: white;
+	font-size:17;
+	font-family:Cascadia Mono SemiBold;
+    padding: 100px;
+	transition: all 1s ease-in-out;
+}
+#navdiv u1 li {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+#navdiv u1 li:hover{
+    background: #c0c0c0;
+    transition:all 0.40s;
+	
+}
+#navdiv h1{
+    width: 300px;
+    float: left;
+    cursor: pointer;
+    margin-left: 15px;
+}
